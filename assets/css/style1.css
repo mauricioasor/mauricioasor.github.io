@@ -6,7 +6,7 @@
   --cor-fundo: #f4f4f9;
   --cor-texto: #333333;
   --cor-branco: #ffffff;
-  --fonte-principal: 'Arial', sans-serif;
+  --fonte-principal: "Arial", sans-serif;
   --sombra-padrao: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -190,30 +190,18 @@ section li {
 
 /* --- SEÇÃO DE EXPERIÊNCIAS CORRIGIDA --- */
 
-#experiences {
+#experiences ul {
   padding: 60px 5%;
   max-width: 1000px;
   margin: 0 auto;
   text-align: left;
 }
-
-#experiences > ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#experiences > ul > li {
-  margin-bottom: 25px;
-}
-
-#experiences ul ul {
-  list-style-type: disc;
-  list-style-position: outside;
-  padding-left: 25px;
-  margin-top: 10px;
-}
-
 /* --- CONTATO (continuação para redes sociais) --- */
+#projects {
+  padding: 60px 5%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 #contact ul {
   list-style: none;
