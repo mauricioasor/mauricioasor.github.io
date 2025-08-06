@@ -190,18 +190,12 @@ section li {
 
 /* --- SEÇÃO DE EXPERIÊNCIAS CORRIGIDA --- */
 
-#experiences ul {
-  padding: 60px 5%;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: left;
+#experience ul {
+  list-style-position: outside;
+  padding-left: 25px;
 }
+
 /* --- CONTATO (continuação para redes sociais) --- */
-#projects {
-  padding: 60px 5%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
 
 #contact ul {
   list-style: none;
